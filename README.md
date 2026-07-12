@@ -13,7 +13,8 @@ The diagram is the cheapest part. What it forces is the product:
 1. **Every branch must be an observable fact, not a judgment word.** "Is the data sensitive?" is a judgment hiding as a question. Split it into things you can check.
 2. **Cheapest, most decisive questions go closest to the root.** A five-second disqualifier beats a nuanced question that takes a week.
 3. **Yes/no only.** A three-way fork means the question is really two questions.
-4. **Any question you can't answer yet becomes a marked open gap**, with a note on what would answer it: a document to read, a person to ask, a term to verify.
+4. **Any question you can't answer yet becomes a marked open gap**, with a note on what would answer it: a document to read, a person to ask, a term to verify. Unknown is its own answer — gap edges route "no / unknown" to the protective branch, never the permissive one.
+5. **Sort item questions from world questions, and send them opposite directions.** Item questions change with every case ("does this contain identifiers?") — those are what branches are for. World questions are the same for every case ("are we on enterprise terms?") — they're preconditions, listed above the tree. Verify one and it doesn't just close a gap: it deletes the branch and becomes a standing rule. *(Rule five came from community review on day one, which is exactly the point.)*
 
 A finished tree with zero gaps means you actually understand the decision. A tree with gap nodes means your overwhelm was never fog — it was specific unanswered questions, and now they're written down.
 

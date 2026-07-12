@@ -38,6 +38,7 @@ flowchart TD
 
 ## Notes
 
+- Both open gaps here are **world questions, not item questions** (rule 5): run any file you want through this tree and their answers don't change. They're really preconditions — once verified, each one deletes its branch and becomes a standing rule, and the tree shrinks to pure per-item questions. Left in the tree in this example to show what an unverified world looks like honestly.
 - The easy cases are genuinely easy: anything written to be published exits at question two without touching a gap. If your tree can't produce a fast answer for the easy case, the branches aren't observable enough yet.
 - Closing the gaps doesn't open the floodgates: company financials stay at coded-or-derived even on fully verified enterprise terms. The gaps only gate the full-text document lane.
 - What this tree deliberately doesn't decide: which vendor. That's a different tree.

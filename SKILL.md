@@ -39,6 +39,16 @@ Pin down conversationally, not as a form:
 - Mark open gaps: when the user or the facts on hand can't answer a node,
   do NOT guess. Style the node as an open gap and record what would answer it
   (a document to read, a person to ask, a term to verify).
+- Unknown is its own answer, not a soft no. Gap edges are labeled "no / unknown"
+  and route to the protective branch, never the permissive one. Folding unknown
+  into no is how trees lie about what's actually in hand.
+- Sort item questions from world questions, and send them opposite directions.
+  Item questions change with every case ("does this contain identifiers?") and
+  are what branches are for. World questions are the same for every case
+  ("are we on enterprise terms?", "do the agreements permit processing?") —
+  they're preconditions, not branches. List them in a Preconditions block above
+  the tree; verifying one doesn't just close a gap, it deletes that branch and
+  becomes a standing rule. (Contributed by community review, 2026-07-12.)
 - Depth cap ~6 levels. Deeper means the root is several decisions; split the tree.
 
 ### 3. Classify the leaves
@@ -50,6 +60,9 @@ Save as `decision-trees/YYYY-MM-DD-<slug>.md` in the owning project. Format:
     # Decision: <root question>
     **Made for:** <who decides> · **Reversibility:** ... · **Mapped:** YYYY-MM-DD
     **Status:** complete | N open gaps
+
+    ## Preconditions (world questions — verify once, then they're standing rules)
+    | # | Question | Verified? | What would answer it |
 
     ```mermaid
     flowchart TD
