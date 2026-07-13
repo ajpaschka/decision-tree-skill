@@ -26,7 +26,14 @@ choice. Trees are for decisions that recur; a one-off gets a recommendation, not
 ### 1. Frame the root
 Pin down conversationally, not as a form:
 - The decision, stated as a single question with a bounded set of outcomes
-- Who decides (a tree for someone else's decision gets framed as a recommendation map)
+- Who decides — three cases, not two: your own decision gets a tree; someone
+  else's gets a recommendation map, framed as such; a *jointly owned* decision —
+  several deciders, each holding a private walk-away (a negotiation) — isn't one
+  tree at all. One tree flattens exactly the disagreement worth seeing; give each
+  party their own. And when a decider speaks for an interest they don't fully bear
+  the risk of ("for the department," for a company), ask which parts of their
+  position are personal and which are the principal's — the two blend by default
+  and quietly distort every branch.
 - Reversibility: reversible decisions get shallow trees and a bias to act;
   irreversible ones earn depth
 

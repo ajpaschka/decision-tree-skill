@@ -18,6 +18,8 @@ The diagram is the cheapest part. What it forces is the product:
 
 A finished tree with zero gaps means you actually understand the decision. A tree with gap nodes means your overwhelm was never fog — it was specific unanswered questions, and now they're written down.
 
+A leaf can optionally carry a **confidence value** — how likely the outcome is to hold once you act on it, not just what the outcome is. Score it with more granularity than feels natural (60/40, not "probably"), then check it against what actually happened. It's Tetlock's superforecasting discipline applied to a leaf instead of a geopolitical question, and it's optional: plenty of trees are pure logic with no real uncertainty left once the branches are honest.
+
 ## What it looks like
 
 ```mermaid
