@@ -54,6 +54,13 @@ Pin down conversationally, not as a form:
 ### 3. Classify the leaves
 Every path ends in an action or outcome, never "it depends."
 
+Optionally, a leaf can also carry a confidence value — how likely the outcome
+is to hold once acted on, not just what the outcome is. Not every tree needs
+this; use it where the leaf is still a bet, not a certainty. Use more
+granularity than feels natural (60/40, not "probably") — this is Tetlock's
+superforecasting research applied to a leaf instead of a geopolitical
+question: score it, then check it against what actually happened.
+
 ### 4. Write the artifact
 Save as `decision-trees/YYYY-MM-DD-<slug>.md` in the owning project. Format:
 
@@ -73,6 +80,9 @@ Save as `decision-trees/YYYY-MM-DD-<slug>.md` in the owning project. Format:
 
     ## Open gaps
     | # | Node | What would answer it | Where |
+
+    ## Calibration (only if a leaf carries a confidence value)
+    | Leaf | Predicted | Confidence | Actual | Date |
 
     ## Notes
     <anything that didn't fit a binary, honestly logged, not forced into the tree>
